@@ -44,7 +44,7 @@ CKEDITOR.dialog.add( 'videosnapshotDialog', function( editor ) {
 							if (key) {
 								var video_url = 'https://www.youtube.com/watch?v=' + key;
 								var image_url = 'https://i.ytimg.com/vi/' + key + '/hqdefault.jpg';
-								element.setHtml('<img src="'+image_url+'" style="max-width:480px;margin:auto;"/><span style="background-image: url(' + play_image + '); background-repeat:no-repeat; background-position:center center; top:0; bottom:0; left:0; right:0; position:absolute; pointer-events:none; background-color:rgba(0,0,0,0.5);"></span>');
+								element.setHtml('<img src="'+image_url+'" style="max-width:480px;margin:auto;"/><span style="background-image: url(' + play_image + '); background-repeat:no-repeat; background-position:center center; top:0; bottom:0; left:0; right:0; position:absolute; pointer-events:none; background-color:rgba(0,0,0,0.5);"> </span>');
 							}
 
 						}
